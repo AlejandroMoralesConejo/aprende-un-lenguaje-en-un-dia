@@ -70,8 +70,11 @@ Una de sus principales desventajas es su complejidad.
 
 
 ## Herramientas de desarrollo
-
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+Necesitaremos un IDE (Entorno de Desarrollo Integrado) para escribir y compilar el código.
+El más popular es Visual Studio Code que es libre y gratuito.
+Además, hay otras opciones como Netbeans, Eclipse, Dev C++ o Code::Blocks que es muy popular entre gente que empieza a programar al requerir menos recursos.
+<img src="https://i1.wp.com/justcode.me/wp-content/uploads/2017/08/Top-30-Best-IDEs-and-Compilers-for-C.jpg?resize=686%2C474">
+Por otro lado, hay compiladores online, cómodos para probar el lenguaje como en este caso. Elegiremos este: https://www.onlinegdb.com/online_c++_compiler
 
 ## Poniendo en práctica el lenguaje
 
