@@ -48,6 +48,8 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación Cmecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, el C++ es un lenguaje híbrido.
 
+<img src="https://aprendiendoarduino.files.wordpress.com/2014/11/2afd4-cpp.jpg?w=396&h=396">
+
 ¿Por qué se llama así?
 
 En programación, muchos lenguajes utilizan el operador ++ para incrementar el valor de una variable. De esta manera se puede decir que C++ es la continuación del lenguaje C.
