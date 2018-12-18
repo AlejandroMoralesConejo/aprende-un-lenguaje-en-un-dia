@@ -73,6 +73,47 @@ int main()
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+```C++
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int altura;
+    string relleno = "*";
+    int espacios;
+    int planta = 1;
+    int longitudLinea = 1;
+    
+    cout<<"Por favor, introduzca la altura de la pirámide: ";
+    cin>>altura;
+    
+    espacios = altura-1;
+
+    while(planta <= altura){
+        //insertar espacios
+        for(int i=0; i<espacios; i++){
+            cout<<" ";
+        }
+        
+        //pintar la linea
+        for(int i=0; i<longitudLinea; i++){
+            cout<<relleno;
+        }
+        cout<<"\n";
+        
+        planta++;
+        espacios--;
+        longitudLinea = longitudLinea + 2;
+        
+    }
+
+    return 0;
+}
+
+```
 
 ### 3. Arrays y números aleatorios
 
