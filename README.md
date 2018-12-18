@@ -98,7 +98,7 @@ int main()
 }
 ```
 <img src="holamundo.png" alt="Primer Hola Mundo">
-[holamundo.png](https://raw.github.com/AlejandroMoralesConejo/aprende-un-lenguaje-en-un-dia)
+
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
@@ -143,6 +143,7 @@ int main()
 }
 
 ```
+<img src="piramide.png" alt="Pirámide">
 
 ### 3. Arrays y números aleatorios
 
@@ -188,6 +189,7 @@ int main()
     return 0;
 }
 ```
+<img src="primo.png" alt="Array en C++">
 
 ## Presentación de resultados
 
