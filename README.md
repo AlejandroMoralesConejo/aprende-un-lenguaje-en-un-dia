@@ -97,6 +97,7 @@ int main()
     return 0;
 }
 ```
+<img src="holamundo.png" alt="Primer Hola Mundo">
 [holamundo.png](https://raw.github.com/AlejandroMoralesConejo/aprende-un-lenguaje-en-un-dia)
 ### 2. Pirámide
 
