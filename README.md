@@ -147,6 +147,47 @@ int main()
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n[20];
+    int primo[20];
+    int noPrimo[20];
+    int i;
+    int j;
+    int primos = 0;
+    int noPrimos = 0;
+    bool esPrimo = false;
+    for (i = 0; i < 20; i++) {
+        n[i] = (1+ rand()% 100); //generamos 20 números aleatorios
+        esPrimo = true;
+        for (j = 2; j < n[i] - 1; j++) { //comprobamos si es primo o no
+            if (n[i] % j == 0) {
+                esPrimo = false;
+            }
+        }
+        if (esPrimo) { //si es primo, se guardan en el array primo y si no en el noPrimo
+            primo[primos++] = n[i];
+        } else {
+            noPrimo[noPrimos++] = n[i];
+        }
+    }
+    for (i = 0; i < primos; i++) { //mete los primos en el array final
+        n[i] = primo[i];
+    }
+    for (i = primos; i < primos + noPrimos; i++) { //mete los no primos detrás de los primos
+        n[i] = noPrimo[i - primos];
+    }
+    for (i = 0; i < 20; i++) { //presenta por pantalla
+        cout<<n[i]<<" ";
+    }
+    return 0;
+}
+```
 
 ## Presentación de resultados
 
