@@ -54,21 +54,20 @@ C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La 
 
 En programación, muchos lenguajes utilizan el operador ++ para incrementar el valor de una variable. De esta manera se puede decir que C++ es la continuación del lenguaje C.
 
-Características:
+Ventajas:
 
--	Sintaxis heredada de C.
--	Tiene un estándar ISO.
--	Lenguaje fuertemente tipado.
--	Sobrecarga de operadores
--	Soporta expresiones Lambda, también llamadas funciones anónimas.
--	Control de excepciones.
--	Biblioteca estándar (plantillas de clases, soporte multihilo)
--	Compatibilidad con C.
--	Uso de punteros
--	Tiene un gran número de compiladores en diferentes plataformas y sistemas operativos.
--	Eficiencia con el hardware.
+-	Es portable, ya que existen compiladores de C++ para diferentes sistemas operativos.
+-	Es didáctico, a partir de este lenguaje puedes aprender otros con facilidad.
+-	Son robustos y versátiles, por lo que se utiliza para crear software (sistemas operativos, compiladores…)
+-	Es muy flexible, permite programar con múltiples estilos.
+-	Es un lenguaje muy empleado, por lo que podemos encontrar bastante material para aprenderlo.
 
-Una de sus principales desventajas es su complejidad.
+Desventajas:
+
+-	Se trata de un lenguaje muy complejo.
+-	No es recomendable para desarrollo de páginas Web.
+-	Es complicado realizar una correcta liberación de memoria.
+-	Es más difícil en este lenguaje programar bases de datos. 
 
 
 ## Herramientas de desarrollo
