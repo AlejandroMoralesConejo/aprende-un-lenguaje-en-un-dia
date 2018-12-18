@@ -44,7 +44,30 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+¿Qué es?
+
+C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación Cmecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, el C++ es un lenguaje híbrido.
+
+¿Por qué se llama así?
+
+En programación, muchos lenguajes utilizan el operador ++ para incrementar el valor de una variable. De esta manera se puede decir que C++ es la continuación del lenguaje C.
+
+Características:
+
+-	Sintaxis heredada de C.
+-	Tiene un estándar ISO.
+-	Lenguaje fuertemente tipado.
+-	Sobrecarga de operadores
+-	Soporta expresiones Lambda, también llamadas funciones anónimas.
+-	Control de excepciones.
+-	Biblioteca estándar (plantillas de clases, soporte multihilo)
+-	Compatibilidad con C.
+-	Uso de punteros
+-	Tiene un gran número de compiladores en diferentes plataformas y sistemas operativos.
+-	Eficiencia con el hardware.
+
+Una de sus principales desventajas es su complejidad.
+
 
 ## Herramientas de desarrollo
 
