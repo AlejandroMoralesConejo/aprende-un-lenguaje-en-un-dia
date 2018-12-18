@@ -103,7 +103,6 @@ int main()
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 ```C++
-#include <string>
 #include <iostream>
 
 using namespace std;
@@ -111,35 +110,32 @@ using namespace std;
 int main()
 {
     int altura;
-    string relleno = "*";
+    string relleno ="*";
     int espacios;
-    int planta = 1;
-    int longitudLinea = 1;
+    int h = 1;
+    int longitud = 1;
     
-    cout<<"Por favor, introduzca la altura de la pirámide: ";
-    cin>>altura;
+    cout << "Introduzca la altura de la pirámide: ";
+    cin >> altura;
     
-    espacios = altura-1;
-
-    while(planta <= altura){
+    espacios = altura - 1;
+    
+    for(int i=h; i<=altura; i++){
         //insertar espacios
-        for(int i=0; i<espacios; i++){
-            cout<<" ";
+        for(int j=0; j<espacios; j++) {
+            cout << " ";
         }
-        
-        //pintar la linea
-        for(int i=0; i<longitudLinea; i++){
-            cout<<relleno;
+        //pintar asteriscos
+        for(int j=0; j<longitud; j++){
+            cout << relleno;
         }
-        cout<<"\n";
+        cout<< endl;
         
-        planta++;
+        h++;
         espacios--;
-        longitudLinea = longitudLinea + 2;
+        longitud = longitud + 2;
         
     }
-
-    return 0;
 }
 
 ```
